@@ -3,6 +3,7 @@ import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:summit_ias/core/constant/colors.dart';
 import 'package:summit_ias/core/constant/images.dart';
 import 'package:summit_ias/core/constant/sizes.dart';
+import 'package:summit_ias/core/routes/routes.dart';
 import 'package:summit_ias/presentation/widgets/buttons/custom_material_button.dart';
 
 class ScreenIntro extends StatelessWidget {
@@ -61,10 +62,11 @@ class ScreenIntro extends StatelessWidget {
           Expanded(
             flex: 2,
             child: FractionallySizedBox(
-              heightFactor: .55,
+              heightFactor: .6,
               widthFactor: .85,
               child: CustomMaterialBtton(
-                onPressed: () {},
+                onPressed: () =>
+                    Navigator.pushNamed(context, routeVerification),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [

@@ -13,5 +13,6 @@ const String routeMain = '/main';
 const String routeHome = '/home';
 
 //=-=-=-=-=- Authentication -=-=-=-=-=
+const String routeVerification = '/verification';
 const String routeLogin = '/login';
 const String routeRegister = '/register';
