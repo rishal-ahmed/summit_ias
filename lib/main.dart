@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
-import 'package:summit_ias/core/constant/colors.dart';
 import 'package:summit_ias/core/routes/route_generator.dart';
 import 'package:summit_ias/core/routes/routes.dart';
 
@@ -21,9 +20,7 @@ class MyApp extends StatelessWidget {
           title: 'Summit IAS',
           theme: ThemeData(
             primarySwatch: Colors.lightBlue,
-            fontFamily: GoogleFonts.robotoFlex(
-              color: kWhite,
-            ).fontFamily,
+            fontFamily: GoogleFonts.robotoFlex().fontFamily,
           ),
           debugShowCheckedModeBanner: false,
           onGenerateRoute: RouteGenerator.generateRoute,

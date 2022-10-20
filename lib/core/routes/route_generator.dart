@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:summit_ias/core/routes/routes.dart';
+import 'package:summit_ias/presentation/screens/auth/verification/screen_phone_number.dart';
 import 'package:summit_ias/presentation/screens/auth/verification/screen_verification.dart';
 import 'package:summit_ias/presentation/screens/intro/screen_intro.dart';
 import 'package:summit_ias/presentation/screens/main/screen_main.dart';
@@ -23,6 +24,8 @@ class RouteGenerator {
         return MaterialPageRoute(builder: (_) => const ScreenMain());
 
       //==================== Authentication ====================
+      case routePhoneNumber:
+        return MaterialPageRoute(builder: (_) => const ScreenPhoneNumber());
       case routeVerification:
         return MaterialPageRoute(builder: (_) => const ScreenVerification());
 

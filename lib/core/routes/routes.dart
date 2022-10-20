@@ -13,6 +13,7 @@ const String routeMain = '/main';
 const String routeHome = '/home';
 
 //=-=-=-=-=- Authentication -=-=-=-=-=
+const String routePhoneNumber = '/phone_number';
 const String routeVerification = '/verification';
 const String routeLogin = '/login';
 const String routeRegister = '/register';
